@@ -1,8 +1,5 @@
-// Setup
 function phoneticLookup(val) {
-    let result = "";
   
-    // Only change code below this line
      const lookup = {
      
       alpha : "Adams",
@@ -11,20 +8,18 @@ function phoneticLookup(val) {
       delta: "Denver",
       echo : "Easy",
       foxtrot : "Frank"
+
     };
     return lookup[val];
-    // Only change code above this line
-    return result;
   }
   
   phoneticLookup("charlie");
 
+console.log(phoneticLookup("charlie"));
 
-  // Setup
-/*function phoneticLookup(val) {
+  /*function phoneticLookup(val) {
   let result = "";
 
-  // Only change code below this line
   switch(val) {
     case "alpha":
       result = "Adams";
@@ -49,4 +44,4 @@ function phoneticLookup(val) {
   return result;
 }
 
-phoneticLookup("charlie");*/
+console.log(phoneticLookup("charlie"));*/

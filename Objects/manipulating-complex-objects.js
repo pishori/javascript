@@ -1,4 +1,4 @@
-const myMusic = [
+const myMusic = [     //opening bracket for the top-level array, with two objects within {} inside it.
     {
       "artist": "Billy Joel",
       "title": "Piano Man",
@@ -12,7 +12,6 @@ const myMusic = [
     }
   ,
   
-   
     {
       "artist": "Lil Wayne",
       "title": "Tha Carter V",
@@ -25,4 +24,6 @@ const myMusic = [
       ],
       "gold": true
     }
-  ];
+
+  ];   //opening bracket for the top-level array.
+  

@@ -61,7 +61,7 @@ const contacts = [
   
   lookUpProfile("Bob", "potato") //should return the string "No such contact"
 
-  lookUpProfile("Akira", "address") s//hould return the string "No such property"
+  lookUpProfile("Akira", "address") //should return the string "No such property"
   
   
   

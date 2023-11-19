@@ -45,7 +45,7 @@ const contacts = [
       }
       // If the first if statement fails, the for loop continues on to the next object in the contacts list.
     } 
-    return "No such contact";             /* If the firstName parameter isn’t matched by the final contacts object, 
+    return "No such contact";             /* If the firstName parameter is not matched by the final contacts object, 
     the for loop exits and No such contact is returned.*/
   }
   

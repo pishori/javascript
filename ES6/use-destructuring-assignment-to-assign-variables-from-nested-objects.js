@@ -1,13 +1,11 @@
 //Object
 /*
-
 const user = {
   johnDoe: {
     age: 34,
     email: 'johnDoe@freeCodeCamp.com'
   }
 };
-
  */
 
 // Extracting the values of object properties and assigning them to variables with the same name
@@ -37,6 +35,8 @@ const {today: {low : lowToday, high : highToday}} = LOCAL_FORECAST
 console.log(lowToday); 
 console.log(highToday);     
 
-/*const lowToday = LOCAL_FORECAST.today.low;
-  const highToday = LOCAL_FORECAST.today.high;*/
+/*
+const lowToday = LOCAL_FORECAST.today.low;
+const highToday = LOCAL_FORECAST.today.high;
+*/
 

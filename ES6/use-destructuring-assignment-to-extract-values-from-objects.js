@@ -1,6 +1,6 @@
-// Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
+// Destructuring assignment is a special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
-const user = {names: 'John Doe', age: 34 };
+const user = {names: 'John Doe', age: 34 };   // object called user
 
 //ES5
 /*
@@ -14,7 +14,6 @@ console.log(age);   // 'age' value is 34
 const { names, age } = user;    //Variables are created and assigned their respective values from the 'user' object.
 console.log(names);
 console.log(age);
-
 
 
 const HIGH_TEMPERATURES = {
@@ -31,4 +30,5 @@ console.log(tomorrow);
 
 /*
 const today = HIGH_TEMPERATURES.today;
-const tomorrow = HIGH_TEMPERATURES.tomorrow; */
+const tomorrow = HIGH_TEMPERATURES.tomorrow; 
+*/

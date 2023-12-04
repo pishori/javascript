@@ -4,7 +4,6 @@ console.log(a, b);    // a and b have values of 1 and 2
 console.log(arr);    // arr has a value of [3, 4, 5, 6, 7]
 */
 
-
 function removeFirstTwo(list) {
   const [a, b, ...arr] = list;
     return arr;

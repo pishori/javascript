@@ -21,9 +21,6 @@ the values are destructured from the function parameter for use within the funct
 */
 
 
-
-
-
 const stats = {
   max: 56.78,
   standard_deviation: 4.34,
@@ -36,6 +33,5 @@ const stats = {
 const half = ({max, min}) => (max + min) / 2.0;       // line 15
 const average = half(stats);                         // line 19
 console.log(average);
-
 
 // When 'stats' is passed to the 'half' function, the 'max' and 'min' values are destructured from the function parameter for use within the function.
